@@ -1,53 +1,48 @@
-# Welcome to Jekyll!
+# Welcome to Sinai Jekyll Theme!
 #
 # This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
+# which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+theme_version: 1.0.2
+
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+title:              Sinai
+logo:               # Logo image URL
+description:        Thoughts, Stories and Ideas
+baseurl:            '' # The subpath of your site, e.g. /blog
+url:                'https://sinai-jekyll.netlify.com/' # The base hostname & protocol for your site
+twitter:            https://twitter.com/aspirethemes
+facebook:           https://www.facebook.com/aspirethemes
+instagram:          https://www.instagram.com/aspirethemes
 
-title: Jair-Owen
-email: youngiron824@gmail.com
-description: >- #
- Blog
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  Jair-Owen
+markdown:  kramdown
+permalink: pretty
+paginate:  12
+sass:
+  style: compressed
 
-# Build settings
-theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
+  - jekyll/tagging
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+include:
+  - _pages
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+# Pages path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
