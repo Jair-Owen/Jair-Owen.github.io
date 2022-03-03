@@ -9,7 +9,7 @@ theme_version: 1.0.2
 
 # Site settings
 title:              YeoChael
-logo:               <img src="/Users/youngcheolchoi/Downloads/YeoChael's logo.png" alt="YeoChael's logo">
+logo:               <img src="/Users/youngcheolchoi/YeoChael.github.io/images/YeoChael logo.png" alt="YeoChael logo">
 description:        Thoughts, Stories and Ideas
 baseurl:            '' # The subpath of your site, e.g. /blog
 url:                'https://sinai-jekyll.netlify.com/' # The base hostname & protocol for your site
