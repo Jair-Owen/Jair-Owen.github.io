@@ -8,8 +8,8 @@
 theme_version: 1.0.2
 
 # Site settings
-title:              Sinai
-logo:               # Logo image URL
+title:              YeoChael
+logo:               <img src="/Users/youngcheolchoi/Downloads/YeoChael's logo.png" alt="YeoChael's logo">
 description:        Thoughts, Stories and Ideas
 baseurl:            '' # The subpath of your site, e.g. /blog
 url:                'https://sinai-jekyll.netlify.com/' # The base hostname & protocol for your site
