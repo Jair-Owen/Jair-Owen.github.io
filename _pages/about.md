@@ -4,8 +4,9 @@ title: About
 image: '/images/pages/1.jpg'
 ---
 
-You love minimalism, want to be productive focusing only on the important things and want to take jekyll to the next level, Sinai is designed for you. Sinai focus on showing your content in a clean and simple way, focus on images, typography, and white space.
+여챌(YeoChael)은 사업가이자 크리에이터입니다.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+2022년, 여챌은 쇼핑몰과 NFT 비즈니스를 진행하고 있으며
+선한 영향력을 끼친다는 목표를 향해 조금씩 나아가고 있습니다.
 
-Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.
+여챌의 삶을 유튜브와 인스타그램을 통해서 함께 느껴볼 수 있습니다.

@@ -11,6 +11,8 @@
     padding: 0px ($base-spacing-unit + half($base-spacing-unit));
 
     &-wrap {
+      position:relative;
+      top:26px;
       text-align: center;
       text-align: left;
 
