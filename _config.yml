@@ -9,7 +9,7 @@ theme_version: 1.0.2
 
 # Site settings
 title:              YeoChael
-logo:               https://media4.giphy.com/media/p5k0Q6uWRSACgfhvlJ/giphy.gif?cid=790b76111eb07efd2cdaec3f3377822f010173e2fcb7b113&rid=giphy.gif&ct=g
+logo:               # https://media4.giphy.com/media/p5k0Q6uWRSACgfhvlJ/giphy.gif?cid=790b76111eb07efd2cdaec3f3377822f010173e2fcb7b113&rid=giphy.gif&ct=g
 description:        Thoughts, Stories and Ideas
 baseurl:            '' # The subpath of your site, e.g. /blog
 url:                'https://sinai-jekyll.netlify.com/' # The base hostname & protocol for your site
