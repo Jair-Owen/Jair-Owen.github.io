@@ -4,12 +4,6 @@ layout: default
 
 <div class='o-wrapper'>
 
-  <div class='intro'>
-    {% include intro.html %}
-    {% include intro.scss %}
-    {% include intro.js %}
-  </div>
-
   <div class='o-grid js-grid'>
     {% for post in paginator.posts %}
       {% include post-card.html %}
