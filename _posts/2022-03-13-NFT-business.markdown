@@ -3,7 +3,7 @@ layout: post
 title: NFT 사업 구상
 author: YeoChael
 tags: [Business]
-image: '/images/posts/[02]_NFT_picture_01.jpg'
+image: '/images/posts/32.jpg'
 ---
 
 
