@@ -10,7 +10,7 @@ image: '/images/posts/31.jpg'
 
 나는 1000억 이상의 사업체를 운영한는 기업가가 될 것이다.
 
-![Image](/images/posts/32.jpg){: width="30%" height="30%"}
+![Image](/images/posts/32.jpg){: width="30%" height="30%"}</right>
 
 나는 아름답고 건깅하고, 현명한 아내를 맞이할 것이다.
 
